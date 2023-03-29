@@ -1,0 +1,88 @@
+import { NextApiRequest, NextApiResponse } from "next";
+
+const links = [
+	{
+		id: 1,
+		title: "Telegram",
+		path: "https://t.me/ive_got_a_migraine",
+		imageUrl: "/images/links/telegram.png",
+		gradient: {
+			from: "from-cyan-300",
+			to: "to-blue-500",
+		},
+	},
+	{
+		id: 2,
+		title: "Github",
+		path: "https://github.com/artades",
+		imageUrl: "/images/links/github.png",
+		gradient: {
+			from: "from-indigo-500",
+			to: "to-blue-400",
+		},
+	},
+	{
+		id: 3,
+		title: "Instagram",
+		path: "https://instagram.com/_ive_got_a_migraine",
+		imageUrl: "/images/links/instagram.png",
+		gradient: {
+			from: "from-violet-500",
+			to: "to-pink-400",
+		},
+	},
+	{
+		id: 4,
+		title: "Vitae (beta)",
+		path: "https://vitae-beta.vercel.app",
+		imageUrl: "/images/links/vitae-beta.png",
+		gradient: {
+			from: "from-sky-700",
+			to: "to-blue-500",
+		},
+	},
+	{
+		id: 5,
+		title: "Twitter",
+		path: "https://twitter.com/ivgam_",
+		imageUrl: "/images/links/twitter.svg",
+		gradient: {
+			from: "from-slate-300",
+			to: "to-sky-500",
+		},
+	},
+	{
+		id: 6,
+		title: "Discord: #3639",
+		path: "https://discord.com",
+		imageUrl: "/images/links/discord.png",
+		gradient: {
+			from: "from-purple-300",
+			to: "to-indigo-600",
+		},
+	},
+	{
+		id: 7,
+		title: "Vkontakte",
+		path: "https://vk.com/ivgam",
+		imageUrl: "/images/links/vk.svg",
+		gradient: {
+			from: "from-sky-300",
+			to: "to-blue-400",
+		},
+	},
+	{
+		id: 8,
+		title: "Rick & Morty",
+		path: "https://rm-ivgam.vercel.app",
+		imageUrl: "/images/links/rm-ivgam.png",
+		gradient: {
+			from: "from-green-300",
+			to: "to-sky-400",
+		},
+	},
+];
+
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
+	res.status(200).json({ data: links });
+}
