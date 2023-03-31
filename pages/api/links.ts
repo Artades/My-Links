@@ -10,6 +10,9 @@ const links = [
 			from: "from-cyan-300",
 			to: "to-blue-500",
 		},
+		recent: {
+			status: false,
+		},
 	},
 	{
 		id: 2,
@@ -19,6 +22,9 @@ const links = [
 		gradient: {
 			from: "from-indigo-500",
 			to: "to-blue-400",
+		},
+		recent: {
+			status: false,
 		},
 	},
 	{
@@ -30,6 +36,9 @@ const links = [
 			from: "from-violet-500",
 			to: "to-pink-400",
 		},
+		recent: {
+			status: false,
+		},
 	},
 	{
 		id: 4,
@@ -39,6 +48,10 @@ const links = [
 		gradient: {
 			from: "from-sky-700",
 			to: "to-blue-500",
+		},
+		recent: {
+			status: true,
+			color: "bg-sky-500",
 		},
 	},
 	{
@@ -50,6 +63,9 @@ const links = [
 			from: "from-slate-300",
 			to: "to-sky-500",
 		},
+		recent: {
+			status: false,
+		},
 	},
 	{
 		id: 6,
@@ -59,6 +75,9 @@ const links = [
 		gradient: {
 			from: "from-purple-300",
 			to: "to-indigo-600",
+		},
+		recent: {
+			status: false,
 		},
 	},
 	{
@@ -70,6 +89,9 @@ const links = [
 			from: "from-sky-300",
 			to: "to-blue-400",
 		},
+		recent: {
+			status: false,
+		},
 	},
 	{
 		id: 8,
@@ -79,6 +101,10 @@ const links = [
 		gradient: {
 			from: "from-green-300",
 			to: "to-sky-400",
+		},
+		recent: {
+			status: true,
+			color: "bg-green-500",
 		},
 	},
 ];
