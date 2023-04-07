@@ -111,14 +111,14 @@ const links = [
 		id: 9,
 		title: "Green Yera",
 		path: "https://green-yera.vercel.app",
-		imageUrl: "/images/links/green-yera.png",
+		imageUrl: "/images/links/logo1.png",
 		gradient: {
 			from: "from-slate-600",
 			to: "to-emerald-400",
 		},
 		recent: {
 			status: true,
-			color: "bg-slate-500",
+			color: "bg-slate-600",
 		},
 	},
 ];
