@@ -107,6 +107,20 @@ const links = [
 			color: "bg-green-500",
 		},
 	},
+	{
+		id: 9,
+		title: "Green Yera",
+		path: "https://green-yera.vercel.app",
+		imageUrl: "/images/links/green-yera.png",
+		gradient: {
+			from: "from-slate-600",
+			to: "to-emerald-400",
+		},
+		recent: {
+			status: true,
+			color: "bg-slate-500",
+		},
+	},
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
