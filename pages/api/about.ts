@@ -3,7 +3,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 const about = [
 	{
 		name: "Ivgam's Links",
-		avatarUrl: "/images/about/avatar.jpg",
+		avatarUrl: "/images/about/photo_2023-04-08_19-41-22.jpg",
 		email:
 			"mailto:artemijgalaj@gmail.com",
 		description:
