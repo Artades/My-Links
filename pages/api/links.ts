@@ -128,7 +128,7 @@ const links = [
 		imageUrl: "/images/links/logo1.png",
 		gradient: {
 			from: "from-sky-700",
-			to: "to-neutral-500",
+			to: "to-slate-500",
 		},
 		recent: {
 			status: true,
