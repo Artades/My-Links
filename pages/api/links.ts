@@ -132,7 +132,7 @@ const links = [
 		},
 		recent: {
 			status: true,
-			color: "bg-blue-500",
+			color: "bg-neutral-500",
 		},
 	},
 ];
