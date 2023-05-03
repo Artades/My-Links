@@ -121,6 +121,20 @@ const links = [
 			color: "bg-slate-600",
 		},
 	},
+	{
+		id: 10,
+		title: "My Blog",
+		path: "https://ivgam-thoughts.vercel.app",
+		imageUrl: "/images/links/logo1.png",
+		gradient: {
+			from: "from-sky-700",
+			to: "to-neutral-500",
+		},
+		recent: {
+			status: true,
+			color: "bg-blue-500",
+		},
+	},
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
