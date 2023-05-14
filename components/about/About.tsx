@@ -2,10 +2,13 @@ import { useOutside } from '@/hooks/useOutside';
 import { AboutProps } from '@/interfaces/about.interface';
 import React, { FC } from 'react';
 import Menu from './Menu';
+import Image from 'next/image';
+import imageLoader from '@/imageLoader';
 
 const About:FC<{data: AboutProps}> = ({data}) => {
 
     const {isShowed, setIsShowed} = useOutside(false);
+	const avatarUrl = data?.avatarUrl ? data?.avatarUrl : '';
 
     return (
 			<div className="w-full bg-zinc-800  rounded-md drop-shadow-lg">
@@ -18,10 +21,17 @@ const About:FC<{data: AboutProps}> = ({data}) => {
 				</div>
 
 				<div className="flex flex-col w-full items-center h-full p-5">
-					<img
-						className="w-40  h-40 rounded-full border-double border-4 border-sky-700  "
-						src={data?.avatarUrl}
-						alt=""
+					
+					<Image
+						alt="Avatar"
+						src={avatarUrl}
+						loading="lazy"
+						loader={imageLoader}
+						placeholder={'empty'}
+						quality={100}
+						width={40}
+						height={40}
+						className="w-40  h-40 rounded-full border-double border-4 border-sky-700"
 					/>
 					<h1 className="text-3xl text-white font-bold my-5 flex items-center">
 						{data?.name}
