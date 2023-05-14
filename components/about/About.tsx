@@ -23,7 +23,7 @@ const About:FC<{data: AboutProps}> = ({data}) => {
 				<div className="flex flex-col w-full items-center h-full p-5">
 					
 					<Image
-						alt="Avatar"
+						alt=""
 						src={avatarUrl}
 						loading="lazy"
 						loader={imageLoader}
