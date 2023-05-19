@@ -135,6 +135,20 @@ const links = [
 			color: "bg-blue-500",
 		},
 	},
+{
+		id: 11,
+		title: "Softlix: Cinema App",
+		path: "https://softlix-gules.vercel.app",
+		imageUrl: "/images/links/logo1.png",
+		gradient: {
+			from: "from-zinc-800",
+			to: "to-rose-600",
+		},
+		recent: {
+			status: true,
+			color: "bg-red-500",
+		},
+	},
 ];
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
