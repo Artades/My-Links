@@ -137,11 +137,11 @@ const links = [
 	},
 {
 		id: 11,
-		title: "Softlix: Cinema App",
+		title: "Softlix",
 		path: "https://softlix-gules.vercel.app",
 		imageUrl: "/images/links/icons8-popcorn-96 (1).png",
 		gradient: {
-			from: "from-zinc-800",
+			from: "from-slate-800",
 			to: "to-rose-600",
 		},
 		recent: {
