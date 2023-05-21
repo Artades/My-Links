@@ -141,7 +141,7 @@ const links = [
 		path: "https://softlix-gules.vercel.app",
 		imageUrl: "/images/links/icons8-popcorn-96 (1).png",
 		gradient: {
-			from: "from-neutral-800",
+			from: "from-neutral-600",
 			to: "to-rose-500",
 		},
 		recent: {
