@@ -127,7 +127,7 @@ const links = [
 		path: "https://ivgam-thoughts.vercel.app",
 		imageUrl: "/images/links/logo1.png",
 		gradient: {
-			from: "from-neutral-800",
+			from: "from-neutral-600",
 			to: "to-blue-500",
 		},
 		recent: {
