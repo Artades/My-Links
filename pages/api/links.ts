@@ -127,7 +127,7 @@ const links = [
 		path: "https://ivgam-thoughts.vercel.app",
 		imageUrl: "/images/links/logo1.png",
 		gradient: {
-			from: "from-neutral-600",
+			from: "from-ingigo-200",
 			to: "to-blue-500",
 		},
 		recent: {
@@ -141,7 +141,7 @@ const links = [
 		path: "https://softlix-gules.vercel.app",
 		imageUrl: "/images/links/icons8-popcorn-96 (1).png",
 		gradient: {
-			from: "from-neutral-600",
+			from: "from-purple-600",
 			to: "to-rose-500",
 		},
 		recent: {
