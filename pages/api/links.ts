@@ -1,8 +1,22 @@
 import { NextApiRequest, NextApiResponse } from "next";
 
 const links = [
-	{
+		{
 		id: 1,
+		title: "My Blog",
+		path: "https://ivgam-thoughts.vercel.app",
+		imageUrl: "/images/links/logo1.png",
+		gradient: {
+			from: "from-indigo-300",
+			to: "to-blue-500",
+		},
+		recent: {
+			status: true,
+			color: "bg-blue-500",
+		},
+	},
+	{
+		id: 2,
 		title: "Telegram",
 		path: "https://t.me/ive_got_a_migraine",
 		imageUrl: "/images/links/telegram.png",
@@ -15,7 +29,7 @@ const links = [
 		},
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Github",
 		path: "https://github.com/artades",
 		imageUrl: "/images/links/github.png",
@@ -28,7 +42,7 @@ const links = [
 		},
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Instagram",
 		path: "https://instagram.com/_ive_got_a_migraine",
 		imageUrl: "/images/links/instagram.png",
@@ -41,7 +55,7 @@ const links = [
 		},
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "Vitae (beta)",
 		path: "https://vitae-beta.vercel.app",
 		imageUrl: "/images/links/vitae-beta.png",
@@ -55,7 +69,7 @@ const links = [
 		},
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Twitter",
 		path: "https://twitter.com/ivgam_",
 		imageUrl: "/images/links/twitter.svg",
@@ -68,7 +82,7 @@ const links = [
 		},
 	},
 	{
-		id: 6,
+		id: 7,
 		title: "Discord: #3639",
 		path: "https://discord.com",
 		imageUrl: "/images/links/discord.png",
@@ -81,7 +95,7 @@ const links = [
 		},
 	},
 	{
-		id: 7,
+		id: 8,
 		title: "Vkontakte",
 		path: "https://vk.com/ivgam",
 		imageUrl: "/images/links/vk.svg",
@@ -94,7 +108,7 @@ const links = [
 		},
 	},
 	{
-		id: 8,
+		id: 9,
 		title: "Rick & Morty",
 		path: "https://rm-ivgam.vercel.app",
 		imageUrl: "/images/links/rm-ivgam.png",
@@ -108,7 +122,7 @@ const links = [
 		},
 	},
 	{
-		id: 9,
+		id: 10,
 		title: "Green Yera",
 		path: "https://green-yera.vercel.app",
 		imageUrl: "/images/links/greenyera.png",
@@ -121,20 +135,7 @@ const links = [
 			color: "bg-slate-600",
 		},
 	},
-	{
-		id: 10,
-		title: "My Blog",
-		path: "https://ivgam-thoughts.vercel.app",
-		imageUrl: "/images/links/logo1.png",
-		gradient: {
-			from: "from-indigo-200",
-			to: "to-blue-500",
-		},
-		recent: {
-			status: true,
-			color: "bg-blue-500",
-		},
-	},
+
 {
 		id: 11,
 		title: "Softlix",
