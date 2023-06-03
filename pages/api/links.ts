@@ -4,7 +4,7 @@ const links = [
 		{
 		id: 1,
 		title: "My Blog",
-		path: "https://ivgam-thoughts.vercel.app",
+		path: "https://ivgam-blog.vercel.app",
 		imageUrl: "/images/links/logo1.png",
 		gradient: {
 			from: "from-indigo-300",
