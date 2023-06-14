@@ -6,8 +6,8 @@ const GridItem:FC<{link: LinkProps}> = ({link}) => {
     return (
 			<a href={link?.path} target="_blank" className="cursor-pointer">
 				<div
-					className={`w-full h-[160px] ease-in-out  duration-400 rounded-[20px_0_20px_0] transition border border-sky-300 bg-gradient-to-r ${link.gradient.from} ${link.gradient.to} bg-left
-					hover:scale-[1.11] hover:bg-gradient-to-l hover:opacity-90
+					className={`w-full h-[160px] ease-in-out  duration-200 rounded-lg transition border border-sky-300 bg-gradient-to-r ${link.gradient.from} ${link.gradient.to} bg-left
+					hover:scale-[0.94] hover:bg-gradient-to-l hover:opacity-90 
 					`}
 				>
 					{  link?.recent.status === true &&  link?.recent.color
