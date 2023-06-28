@@ -8,7 +8,7 @@ const links = [
 		imageUrl: "/images/links/flux.png",
 		gradient: {
 			from: "from-fuchsia-600",
-			to: "to-zinc-900",
+			to: "to-violet-400",
 		},
 		recent: {
 			status: true,
