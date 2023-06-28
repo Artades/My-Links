@@ -7,7 +7,7 @@ const links = [
 		path: "https://fluux.vercel.app",
 		imageUrl: "/images/links/flux.png",
 		gradient: {
-			from: "from-neutral-600",
+			from: "from-fuchsia-600",
 			to: "to-zinc-900",
 		},
 		recent: {
