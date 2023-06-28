@@ -3,16 +3,16 @@ import { NextApiRequest, NextApiResponse } from "next";
 const links = [
 		{
 		id: 1,
-		title: "My Blog",
-		path: "https://ivgam-blog.vercel.app",
-		imageUrl: "/images/links/logo1.png",
+		title: "Flux",
+		path: "https://fluux.vercel.app",
+		imageUrl: "/images/links/flux.png",
 		gradient: {
-			from: "from-indigo-300",
-			to: "to-blue-500",
+			from: "from-[#CA00FF]",
+			to: "to-stone-50",
 		},
 		recent: {
 			status: true,
-			color: "bg-blue-500",
+			color: "bg-indigo-500",
 		},
 	},
 	{
