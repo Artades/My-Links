@@ -5,6 +5,7 @@ import About from "../components/about/About";
 import Grid from "@/components/grid/Grid";
 import { LinkProps } from "../interfaces/link.interface";
 import GridSkeleton from "@/components/grid/GridSkeleton";
+import Projects from "@/components/projects/Projects"
 
 export default function Home() {
 const [about, setAbout] = React.useState<AboutProps[]>([]);
@@ -43,6 +44,7 @@ return (
 		</Head>
 		<div className="container">
 			<About data={data} />
+			<Projects/>
 			{isLoading? (
 				// render empty grid items while loading
 				<GridSkeleton  />
