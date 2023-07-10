@@ -14,16 +14,20 @@ const Projects = () => {
     useEffect(() => {
         const getProjects = async () => {
             try {
-                const response = await axios.get('https://api.github.com/user/repos', {
-                    headers: {
-                        Authorization: 'Bearer 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',
-                    },
-                    params: {
-                        sort: 'updated',
-                        direction: 'desc',
-                        per_page: '10',
-                    },
-                });
+                const response = await axios.get(
+									"https://api.github.com/user/repos",
+									{
+										headers: {
+											Authorization:
+												"Bearer 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",
+										},
+										params: {
+											sort: "updated",
+											direction: "desc",
+											per_page: "10",
+										},
+									}
+								);
                 setProjects(response.data);
                 setIsLoading(false);
             } catch (error) {
