@@ -19,7 +19,7 @@ const Projects = () => {
 									{
 										headers: {
 											Authorization:
-												"Bearer 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",
+												"Bearer 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",
 										},
 										params: {
 											sort: "updated",
