@@ -19,7 +19,7 @@ const Projects = () => {
 									{
 										headers: {
 											Authorization:
-												"Bearer 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",
+												"Bearer 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",
 										},
 										params: {
 											sort: "updated",
