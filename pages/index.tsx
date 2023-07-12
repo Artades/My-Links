@@ -44,7 +44,7 @@ return (
 		</Head>
 		<div className="container">
 			<About data={data} />
-			<Projects/>
+			{/*<Projects/>*/}
 			{isLoading? (
 				// render empty grid items while loading
 				<GridSkeleton  />
